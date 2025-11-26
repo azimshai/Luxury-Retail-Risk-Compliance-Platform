@@ -32,11 +32,11 @@ Visualization & Monitoring (Power BI): Connect Power BI to the SQL database to c
 | **Anomaly Detection Rate** | Measures the percentage of transactions flagged as fraudulent (Fraud\_Flag=1 in the dataset) that the system correctly isolates. | Highlights **data analysis and fraud detection skills**. |
 
 
-## 📊 Key Performance Indicators (KPIs)
+## 🛠️ Project Tech Stack
 
-| Metric | Purpose | Resume Impact |
+| Technology | Role in the Project | Key Function (What it will do) |
 | :--- | :--- | :--- |
-| **Transaction/Compliance Breach Rate** | Measures the percentage of transactions failing internal control checks (e.g., missing data, non-compliant amount ranges). | Demonstrates ability to **design and enforce process controls**. |
-| **High-Value Transaction Volume** | Tracks the volume of purchases exceeding a set risk threshold (e.g., >$250) across different locations. | Shows understanding of **quantifying high-risk exposure** in luxury retail. |
-| **Anomaly Detection Rate** | Measures the percentage of transactions flagged as fraudulent (Fraud\_Flag=1 in the dataset) that the system correctly isolates. | Highlights **data analysis and fraud detection skills**. |
-
+| **Python** | Automation & Data Manipulation | The core programming language. It will handle the entire workflow, from reading the initial CSV data to performing complex cleaning, processing logic, and outputting the final report files. |
+| **Pandas** | Data Structuring & Analysis | Python's primary library for working with structured data. It will be used to load the CSV, apply **data cleaning rules**, perform filtering based on compliance criteria, and calculate risk metrics. |
+| **SQL** | Data Persistence & Querying | Used to store the processed and cleaned transaction data in a relational database. This demonstrates knowledge of **data modeling** and the ability to retrieve (query) specific information needed for risk analysis and reporting. |
+| **Power BI** | Business Intelligence (BI) & Visualization | The platform for building the final "Risk & Compliance Monitoring Dashboard." It will connect to the SQL data and visualize **Key Risk Indicators (KRIs)** like fraud rates, high-value transactions, and geographic compliance breaches. |
