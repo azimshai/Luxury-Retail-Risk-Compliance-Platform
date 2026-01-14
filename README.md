@@ -50,3 +50,10 @@ The project follows a standard Extract, Transform, Load (ETL) pipeline:
 | **Pandas** | Data Structuring & Analysis | Python's primary library for working with structured data. It will be used to load the CSV, apply **data cleaning rules**, perform filtering based on compliance criteria, and calculate risk metrics. |
 | **SQL** | Data Persistence & Querying | Used to store the processed and cleaned transaction data in a relational database. This demonstrates knowledge of **data modeling** and the ability to retrieve (query) specific information needed for risk analysis and reporting. |
 | **Power BI** | Business Intelligence (BI) & Visualization | The platform for building the final "Risk & Compliance Monitoring Dashboard." It will connect to the SQL data and visualize **Key Risk Indicators (KRIs)** like fraud rates, high-value transactions, and geographic compliance breaches. |
+
+## Dashboards
+<img width="702" height="500" alt="image" src="https://github.com/user-attachments/assets/d2866994-dec5-4c57-853d-8e7cd35b6f5e" />
+<img width="690" height="494" alt="image" src="https://github.com/user-attachments/assets/82df672c-4885-4d6c-aa17-88db2d557b40" />
+
+
+This dashboard identifies Bronze and Silver tiers as the primary targets for fraud in this dataset, with 24 and 16 confirmed cases respectively. By filtering for these high-risk clusters, security teams can prioritize investigations where the 'Fraud Flag' is most concentrated.
